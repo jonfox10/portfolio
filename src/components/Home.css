@@ -6,12 +6,9 @@
 .home-body {
     position: relative;
     width: 100vw;
-    /* height: 100vh; */
-    background: url('../images/birds-black-and-white-black-and-white-1229102.jpg') top center no-repeat;
-    /* background-size: auto 105%; */
+    min-height: 100vh;
+    background: url('../images/birds-black-and-white-black-and-white-1229102.jpg') center center no-repeat;
     background-size: cover;
-    padding-top: 56.25%;
-    background-blend-mode: color;
     font-family: 'Amiko', sans-serif;
     
 }
@@ -39,3 +36,12 @@
     filter: drop-shadow(5px 5px 2px black);
 }
 
+
+@media (max-width: 800px) {
+    .home-content img {
+        /* width: 100%;
+        height: auto; */
+        padding-top: 40vh;
+        /* filter: drop-shadow(5px 5px 2px black); */
+    }
+}

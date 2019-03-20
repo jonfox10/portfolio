@@ -3,9 +3,10 @@
     width: 100vw;
     min-height: 100vh;
     padding-top: 10vmin;
-    margin: 10vmin auto 0 auto;
+    margin: 10vmin auto;
     /* display: flex;
     flex-direction: column; */
+    margin-bottom: 0;
 
 }
 
@@ -22,9 +23,10 @@
 }
 
 .contact-item {
-    width: 40%;
+    width: 50vw;
     display: flex;
-    justify-content: space-between;
+    padding-left: 10vw;
+    /* justify-content: space-between; */
     align-items: center;
     margin-top: 5vmin;
 
@@ -32,16 +34,19 @@
 }
 
 .contact-item img {
-    height: 8vmin;
+    height: 30px;
     width: auto;
 }
 .contact-item a {
     color: white;
     text-decoration: none;
-    font-size: 5vmin;
+    font-size: 3vmin;
     font-weight: 100;
+    text-align: left;
+    margin-left: 5vmin;
 }
 .contact-item a:hover {
     font-weight: 900;
     /* font-size: 5.25vmin; */
 }
+
