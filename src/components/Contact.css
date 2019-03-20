@@ -1,0 +1,47 @@
+.contact-body {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    padding-top: 10vmin;
+    margin: 10vmin auto 0 auto;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+.contact-body h2 {
+    margin-top: 8vmin;
+}
+.contact-content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-item {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vmin;
+
+
+}
+
+.contact-item img {
+    height: 8vmin;
+    width: auto;
+}
+.contact-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 5vmin;
+    font-weight: 100;
+}
+.contact-item a:hover {
+    font-weight: 900;
+    /* font-size: 5.25vmin; */
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Amiko');
+/* font-family: 'Amiko', sans-serif; */
+
+.about-body {
+    position: relative;
+    max-width: 100vw;
+    font-family: 'Amiko', sans-serif;
+    color: white;
+    padding-top: 10vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+.about-body h2 {
+    font-size: 8vmin;
+    margin: 2vmin;
+    margin-top: 8vmin;
+    
+}
+
+.about-body h6 {
+    font-size: 4vmin;
+    margin: 2vmin;
+
+}
+
+.about-body p {
+    font-size: 3vmin;
+    margin: 2vmin;
+    width: 80%;
+    line-height: 3.5vmin;
+
+}
+
+
+
+
+#familypic {
+    width: 70vmin;
+    height: 70vmin;
+    border-radius: 50%;
+    margin: 2vmin;
+
+}

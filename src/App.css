@@ -1,33 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Amiko');
+
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: hsl(210, 11%, 4%);
+  font-family: 'Amiko', sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 10vmin;
+}
+h2 {
+  font-size: 9vmin;
+}
+h3 {
+  font-size: 8vmin;
+}
+h4 {
+  font-size: 7vmin;
+}
+h5 {
+  font-size: 6vmin;
+}
+h6 {
+  font-size: 5vmin;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-header {
+  background-color: hsl(210, 11%, 4%);
+  /* min-height: 100vh; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  /* color: white; */
+}
+
+footer p {
+  font-size: 1vmin;
+  padding: 2vmin;
 }

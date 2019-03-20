@@ -1,0 +1,46 @@
+
+.skills-body {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vmin;
+}
+.skills-body h2 {
+    margin-top: 8vmin;
+}
+
+.icon-body{
+    position: relative;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 10vmin;
+    padding: 5vmin;
+    justify-content: space-around;
+    /* background-color: rgb(300, 300, 300, .1); */
+    background-color: #DDD7DD20;
+    border-radius: 10px;
+
+}
+
+.techLogo {
+    height: 12.5vmin;
+    width: auto;
+    margin: 5vmin;
+    /* filter: drop-shadow(0px .5px .5px #DDD7DD); */
+    z-index: 1;
+    transition: transform .5s;
+}
+
+.techLogo:hover {
+    transform: matrix(2, 0, 0, 2, 0, -50);
+    /* height: 25vmin; */
+    z-index: 2;
+    filter: drop-shadow(0px 0px 25px whitesmoke);
+    /* box-shadow: 0px 0px 5px #DDD7DD; */
+}
