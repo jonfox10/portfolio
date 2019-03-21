@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/moodle-original.0763f249.svg"
   },
   {
-    "revision": "4e34e21362c4998cf6aa",
-    "url": "/static/css/main.3b3b957b.chunk.css"
+    "revision": "1c3205202a5407a57f37",
+    "url": "/static/css/main.7fb40e20.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/static/media/figma-1.80505242.svg"
   },
   {
-    "revision": "4e34e21362c4998cf6aa",
+    "revision": "1c3205202a5407a57f37",
     "url": "/static/js/main.b647939b.chunk.js"
   },
   {
@@ -156,7 +156,7 @@ self.__precacheManifest = [
     "url": "/static/media/birds-black-and-white-black-and-white-1229102.50950c86.jpg"
   },
   {
-    "revision": "7c844f7e71c74b9914ce497589a58cff",
+    "revision": "4dd71a8aeca7002e65cdef6b26a1ccb9",
     "url": "/index.html"
   }
 ];
